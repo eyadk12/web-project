@@ -835,6 +835,130 @@ footer {
 .footer-bottom a:hover {
   text-decoration: underline;
 }
+@media (max-width: 992px) {
+  .hero .container,
+  .about .container {
+    flex-direction: column;
+  }
+
+  .hero-content,
+  .about-content {
+    padding-right: 0;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+
+  .about-content h2 {
+    text-align: center;
+  }
+
+  .about-content h2:after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .book-container {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 3.125rem 0;
+  }
+
+  .mobile-menu-toggle {
+    display: block;
+    z-index: 1002;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 80%;
+    height: 100vh;
+    background-color: var(--card-bg);
+    z-index: 1001;
+    transition: left 0.3s ease;
+    box-shadow: 0.125rem 0 0.625rem var(--shadow-color);
+    padding: 5rem 1.25rem 1.25rem;
+    overflow-y: auto;
+  }
+
+  nav.active {
+    left: 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 0 0 1.25rem 0;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  .book-slider {
+    padding: 1.25rem 0.625rem;
+    gap: 0.9375rem;
+  }
+
+  .book-card {
+    width: 11.25rem;
+  }
+
+  .book-image {
+    height: 15.625rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .features .container {
+    grid-template-columns: 1fr;
+  }
+
+  .book-container {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  .book-card {
+    width: 10rem;
+  }
+
+  .book-image {
+    height: 13.75rem;
+  }
+
+  .review-container {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-contact p {
+    justify-content: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+
 
 
 
