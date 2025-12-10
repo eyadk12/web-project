@@ -1,1 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="image/logo.png" alt="Book Store Logo">
+            </div>
+            
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#featured">Featured</a></li>
+                    <li><a href="#arrivals">Arrivals</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-icons">
+                <a href="#" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </a>
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </header>
+        <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>WELCOME TO <span>BOOK STORE</span></h1>
+                <p>Discover a world of stories waiting to be explored. From bestsellers to hidden gems, we have something for every reader. Browse our collection and find your next favorite book today.</p>
+                <a href="#featured" class="btn">Learn More</a>
+            </div>
+            <div class="hero-image">
+                <img src="image/table.png" alt="Featured Books">
+            </div>
+        </div>
+    </section>
+        <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="feature-box">
+                <div class="feature-icon">
+                    <i class="fa-solid fa-truck-fast"></i>
+                </div>
+                <h3>Fast Delivery</h3>
+                <p>Get your books delivered to your doorstep within 2-3 business days</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">
+                    <i class="fa-solid fa-tag"></i>
+                </div>
+                <h3>24/7 Service</h3>
+                <p>Our customer support team is available round the clock to assist you</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <h3>Best Deal</h3>
+                <p>Enjoy competitive prices and regular discounts on your favorite titles</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">
+                    <i class="fa-solid fa-credit-card"></i>
+                </div>
+                <h3>Secure Payment</h3>
+                <p>Shop with confidence with our secure and encrypted payment options</p>
+            </div>
+        </div>
+    </section>
+        <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-image">
+                <img src="image/about.png" alt="About Books">
+            </div>
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>Founded in 2010, our bookstore has been a haven for book lovers for over a decade. We started with a simple mission: to connect readers with stories that inspire, entertain, and transform. Our carefully curated collection spans across genres, from timeless classics to contemporary bestsellers.</p>
+                <p>What sets us apart is our passion for literature and our commitment to creating a community where ideas can be shared and discussions can flourish. Whether you're a casual reader or a dedicated bibliophile, we're here to help you discover your next great read.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+     <!-- Featured Books Section -->
+    <section class="featured-books" id="featured">
+        <div class="container">
+            <h2>Featured Books</h2>
+            
+            <div class="book-slider">
+                <div class="book-card">
+                    <div class="book-card-inner">
+                        <div class="book-image">
+                            <img src="image/book_1.jpg" alt="Featured Book">
+                            <div class="book-overlay">
+                                <div class="overlay-icons">
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href="#"><i class="fas fa-heart"></i></a>
+                                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <h4>The Great Adventure</h4>
+                            <div class="author">John Smith</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="price">$19.99 <span>$24.99</span></div>
+                            <a href="#" class="learn-more-btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-card-inner">
+                        <div class="book-image">
+                            <img src="image/book_2.jpg" alt="Featured Book">
+                            <div class="book-overlay">
+                                <div class="overlay-icons">
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href="#"><i class="fas fa-heart"></i></a>
+                                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <h4>Mystery Island</h4>
+                            <div class="author">Emily Johnson</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">$17.99 <span>$22.99</span></div>
+                            <a href="#" class="learn-more-btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-card-inner">
+                        <div class="book-image">
+                            <img src="image/book_3.jpg" alt="Featured Book">
+                            <div class="book-overlay">
+                                <div class="overlay-icons">
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href="#"><i class="fas fa-heart"></i></a>
+                                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <h4>The Lost City</h4>
+                            <div class="author">Robert Brown</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">$15.99 <span>$19.99</span></div>
+                            <a href="#" class="learn-more-btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-card-inner">
+                        <div class="book-image">
+                            <img src="image/book_4.jpg" alt="Featured Book">
+                            <div class="book-overlay">
+                                <div class="overlay-icons">
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href="#"><i class="fas fa-heart"></i></a>
+                                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <h4>Eternal Wisdom</h4>
+                            <div class="author">Sarah Wilson</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">$21.99 <span>$26.99</span></div>
+                            <a href="#" class="learn-more-btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-card-inner">
+                        <div class="book-image">
+                            <img src="image/book_5.jpg" alt="Featured Book">
+                            <div class="book-overlay">
+                                <div class="overlay-icons">
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href="#"><i class="fas fa-heart"></i></a>
+                                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <h4>Ocean Secrets</h4>
+                            <div class="author">Michael Davis</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="price">$18.99 <span>$23.99</span></div>
+                            <a href="#" class="learn-more-btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-card-inner">
+                        <div class="book-image">
+                            <img src="image/book_6.jpg" alt="Featured Book">
+                            <div class="book-overlay">
+                                <div class="overlay-icons">
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href="#"><i class="fas fa-heart"></i></a>
+                                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <h4>Mountain Tales</h4>
+                            <div class="author">Jennifer Lee</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">$16.99 <span>$21.99</span></div>
+                            <a href="#" class="learn-more-btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-card-inner">
+                        <div class="book-image">
+                            <img src="image/book_7.png" alt="Featured Book">
+                            <div class="book-overlay">
+                                <div class="overlay-icons">
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href="#"><i class="fas fa-heart"></i></a>
+                                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <h4>Desert Journey</h4>
+                            <div class="author">David Miller</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">$14.99 <span>$19.99</span></div>
+                            <a href="#" class="learn-more-btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-card-inner">
+                        <div class="book-image">
+                            <img src="image/book_8.png" alt="Featured Book">
+                            <div class="book-overlay">
+                                <div class="overlay-icons">
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href="#"><i class="fas fa-heart"></i></a>
+                                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <h4>Forest Whispers</h4>
+                            <div class="author">Lisa Thompson</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">$22.99 <span>$27.99</span></div>
+                            <a href="#" class="learn-more-btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      <!-- New Arrivals Section -->
+    <section class="new-arrivals" id="arrivals">
+        <div class="container">
+            <h2>New Arrivals</h2>
+            <div class="book-container">
+                <div class="book-card">
+                    <div class="book-card-inner">
+                        <div class="book-image">
+                            <img src="image/arrival_1.jpg" alt="New Book">
+                            <div class="book-overlay">
+                                <div class="overlay-icons">
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href="#"><i class="fas fa-heart"></i></a>
+                                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <h4>The Silent Echo</h4>
+                            <div class="author">Alexandra Rivers</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">$24.99 <span>$29.99</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-card-inner">
+                        <div class="book-image">
+                            <img src="image/arrival_2.jpg" alt="New Book">
+                            <div class="book-overlay">
+                                <div class="overlay-icons">
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href="#"><i class="fas fa-heart"></i></a>
+                                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <h4>Midnight Shadows</h4>
+                            <div class="author">Thomas Wright</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="price">$22.99 <span>$27.99</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-card-inner">
+                        <div class="book-image">
+                            <img src="image/arrival_3.jpg" alt="New Book">
+                            <div class="book-overlay">
+                                <div class="overlay-icons">
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href="#"><i class="fas fa-heart"></i></a>
+                                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <h4>Beyond the Horizon</h4>
+                            <div class="author">Sophia Martinez</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">$19.99 <span>$24.99</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-card-inner">
+                        <div class="book-image">
+                            <img src="image/arrival_4.jpg" alt="New Book">
+                            <div class="book-overlay">
+                                <div class="overlay-icons">
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href="#"><i class="fas fa-heart"></i></a>
+                                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <h4>Whispers in the Wind</h4>
+                            <div class="author">Daniel Cooper</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">$18.99 <span>$23.99</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-card-inner">
+                        <div class="book-image">
+                            <img src="image/arrival_5.jpg" alt="New Book">
+                            <div class="book-overlay">
+                                <div class="overlay-icons">
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href="#"><i class="fas fa-heart"></i></a>
+                                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <h4>The Last Voyage</h4>
+                            <div class="author">Olivia Parker</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">$20.99 <span>$25.99</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-card-inner">
+                        <div class="book-image">
+                            <img src="image/arrival_6.jpg" alt="New Book">
+                            <div class="book-overlay">
+                                <div class="overlay-icons">
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href="#"><i class="fas fa-heart"></i></a>
+                                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <h4>Eternal Flames</h4>
+                            <div class="author">Nathan Reed</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">$17.99 <span>$22.99</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-card-inner">
+                        <div class="book-image">
+                            <img src="image/arrival_7.jpg" alt="New Book">
+                            <div class="book-overlay">
+                                <div class="overlay-icons">
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href="#"><i class="fas fa-heart"></i></a>
+                                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <h4>The Great Adventure</h4>
+                            <div class="author">John Smith</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="price">$19.99 <span>$20.99</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-card-inner">
+                        <div class="book-image">
+                            <img src="image/arrival_8.webp" alt="New Book">
+                            <div class="book-overlay">
+                                <div class="overlay-icons">
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href="#"><i class="fas fa-heart"></i></a>
+                                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <h4>Mystery Island</h4>
+                            <div class="author">Emily Johnson</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">$17.99 <span>$22.99</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-card-inner">
+                        <div class="book-image">
+                            <img src="image/arrival_9.jpg" alt="New Book">
+                            <div class="book-overlay">
+                                <div class="overlay-icons">
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href="#"><i class="fas fa-heart"></i></a>
+                                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <h4>The Lost City</h4>
+                            <div class="author">Robert Brown</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">$15.99 <span>$19.99</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-card-inner">
+                        <div class="book-image">
+                            <img src="image/arrival_10.jpg" alt="New Book">
+                            <div class="book-overlay">
+                                <div class="overlay-icons">
+                                    <a href="#"><i class="fas fa-search"></i></a>
+                                    <a href="#"><i class="fas fa-heart"></i></a>
+                                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <h4>Eternal Wisdom</h4>
+                            <div class="author">Sarah Wilson</div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">$21.99 <span>$26.99</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h2>Reviews</h2>
+            <div class="review-container">
+                <div class="review-card">
+                    <div class="reviewer-info">
+                        <img src="image/review_1.png" alt="John Doe">
+                        <h4>John Doe</h4>
+                    </div>
+                    <div class="review-content">
+                        <i class="fa-solid fa-quote-right quote"></i>
+                        <p>I've been a loyal customer for years, and I'm always impressed by the selection and service. The staff recommendations have introduced me to some of my favorite authors that I might have otherwise missed.</p>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="reviewer-info">
+                        <img src="image/review_2.png" alt="Jane Smith">
+                        <h4>Jane Smith</h4>
+                    </div>
+                    <div class="review-content">
+                        <i class="fa-solid fa-quote-right quote"></i>
+                        <p>The online ordering process is seamless, and my books always arrive earlier than expected. I also love the monthly book club discussions - they've really enriched my reading experience.</p>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="reviewer-info">
+                        <img src="image/review_3.png" alt="Robert Johnson">
+                        <h4>Robert Johnson</h4>
+                    </div>
+                    <div class="review-content">
+                        <i class="fa-solid fa-quote-right quote"></i>
+                        <p>As a parent, I appreciate the thoughtfully curated children's section. The staff is incredibly helpful in finding age-appropriate books that my kids actually enjoy reading. The loyalty program is a nice bonus too!</p>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+
+
+
 
