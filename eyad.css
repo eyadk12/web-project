@@ -304,4 +304,26 @@ nav ul li a.active:after {
   font-size: 1.125rem;
   margin-bottom: 0.625rem;
 }
+.about .container {
+  display: flex;
+  align-items: center;
+  gap: 3.125rem;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-content h2 {
+  text-align: left;
+}
+
+.about-content h2:after {
+  left: 0;
+  transform: none;
+}
 
