@@ -508,4 +508,19 @@ nav ul li a.active:after {
   background-color: #008b8b;
   transform: translateY(-0.125rem);
 }
+.new-arrivals {
+  background-color: var(--section-bg);
+  transition: background-color 0.3s ease;
+  padding: 5rem 0;
+}
+
+.book-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.25rem;
+}
+
+.book-container .book-card {
+  width: 100%;
+}
 
